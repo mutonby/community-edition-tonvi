@@ -12,7 +12,7 @@ services:
 
   plausible_events_db:
     image: clickhouse/clickhouse-server:24.12-alpine
-    cpus: "1.5"
+    cpus: "0.5"
     restart: always
     volumes:
       - event-data:/var/lib/clickhouse
