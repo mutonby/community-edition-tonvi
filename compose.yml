@@ -93,6 +93,10 @@ services:
 
 volumes:
   db-data:
+    name: yosw4ck8gkcok04sw8gw4c8s_db-data
   event-data:
+    name: yosw4ck8gkcok04sw8gw4c8s_event-data
   event-logs:
+    name: yosw4ck8gkcok04sw8gw4c8s_event-logs
   plausible-data:
+    name: yosw4ck8gkcok04sw8gw4c8s_plausible-data
