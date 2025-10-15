@@ -93,10 +93,14 @@ services:
 
 volumes:
   db-data:
+    external: true
     name: yosw4ck8gkcok04sw8gw4c8s_db-data
   event-data:
+    external: true
     name: yosw4ck8gkcok04sw8gw4c8s_event-data
   event-logs:
+    external: true
     name: yosw4ck8gkcok04sw8gw4c8s_event-logs
   plausible-data:
+    external: true
     name: yosw4ck8gkcok04sw8gw4c8s_plausible-data
